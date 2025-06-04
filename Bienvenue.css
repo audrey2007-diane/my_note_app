@@ -1,0 +1,231 @@
+body{
+
+position:fixed ;
+width: 500px;
+height: 300px;
+background: radial-gradient(50% 98.88% at 50% 50%, #BDB8E9 0%, #9490B6 50%, #74718F 87.98%, #6A6883 100%);
+border-radius: 50px;
+}
+
+.barre{
+position: fixed;
+width: 256% ;
+height: 80px;
+top: -10px;
+left : -10px;
+background: #EDD3F5;
+
+}
+
+.logo{
+  /* logoAD 1 */
+
+position:absolute;
+width: 150px;
+height: auto;
+left: 50%;
+top: 10px;
+transform: translate(250%);
+z-index: 10;
+
+}
+
+.bienvenue{
+position: absolute;
+width: 700px;
+height: 386px;
+left: 290px;
+top: 120px;
+background: #E4D3E2;
+box-shadow: 4px 4px 100px 40px rgba(132, 26, 26, 0.25);
+border-radius: 30px;
+}
+
+.carre{
+  
+
+position: absolute;
+width: 200px;
+height: 300px;
+left: 380px;
+top: 159px;
+
+background: #E478C9;
+border-radius: 30px;
+
+}
+
+.message{
+  /* Bienvenue sur AD.Solution la solution pour tous */
+
+position: absolute;
+width: 241px;
+height: 0px;
+left: 350px;
+top: 5px;
+
+font-family: 'Inconsolata';
+font-style: normal;
+font-weight: 200px;
+font-size: 20px;
+line-height: 42px;
+transform: translate(-130%, -50%);
+color: #000000;
+
+}
+
+.connexion{
+position: absolute;
+width: 200px;
+height: 300px;
+left: 650px;
+top: 160px;
+background: #E478C9;
+border-radius: 30px;
+}
+.formulaire{
+  position: absolute;
+width: 230px;
+height: 300px;
+left: 670px;
+top: 180px;
+z-index: 2;
+}
+p{
+  font-family: Arial,;
+  font-size: 20px;
+}
+.bouton{
+  position: relative;
+  width: 50px;
+  height: 10;
+  margin: O auto;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.bouton img {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  
+}
+
+.bouton input {
+  border-radius: 20px;
+  background: #f0f0f0;
+  font-size: 16px;
+ 
+  width: 100px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 40px;
+}
+.lien{
+  transform: translate(140%, 1300%);
+}
+.gendr,select{
+  border-radius: 20px;
+  background: #f0f0f0;
+  font-size: 16px;
+  width: 150px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 40px;
+}
+.question{
+  transform: translate(90%,30%);
+}
+
+.note{
+  transform: translate(190%,-6%);
+}
+
+.gros{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(241, 106, 178);
+  color: white;
+  line-height: 100px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: background 0.3s;
+}
+
+.gros:hover {
+  background-color: #c06;
+}
+
+
+.for{
+  position: absolute;
+width: 900px;
+height: 436px;
+left: 180px;
+top: 100px;
+background: #E4D3E2;
+box-shadow: 4px 4px 100px 40px rgba(132, 26, 26, 0.25);
+border-radius: 30px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: left;
+  transform: translate(4%, 10%);
+}
+
+.no,
+textarea {
+  width: 95%;
+  padding: 8px;
+  margin-top: 17px;
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  font-size: 16px;
+  resize: none;
+
+}
+.mesnotes{
+  position: relative;
+  transform: translate(230%, 0%);
+  font-size: 50px;
+}
+
+
+.retour{
+  transform: translate(72%,780%);
+}
+
+.back{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(241, 106, 178);
+  color: white;
+  line-height: 100px;
+  text-align:center;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: background 0.3s;
+}
+
+.back:hover {
+  background-color: #c06;
+}
+.aller{
+  transform: translate(1%, -30%);
+ 
+}
